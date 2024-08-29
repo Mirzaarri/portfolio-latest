@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             as="h2"
             fontSize={{ base: '4xl', md: '5xl', lg: '5xl' }}
             fontWeight="extrabold"
-            bgGradient="linear(to-r, #ff0081, #ff8c00)"
+            bgGradient="linear-gradient(90deg, rgba(97,12,79,1) 7%, rgba(255,255,255,1) 100%)"
             bgClip="text"
           >
             Full Stack Developer + Software Engineer
@@ -45,13 +45,18 @@ const Hero: React.FC = () => {
           <HStack spacing={6} pt={8} align="center">
             <Button
               variant="outline"
-              colorScheme="teal"
               leftIcon={<FaDownload />}
               rounded="full"
+              color={'gray.100'}
               size="lg"
               px={8}
-              borderColor="teal.300"
-              _hover={{ bg: 'teal.500', color: 'white' }}
+              bgGradient="linear(to-r, #3b0b3b, purple.900)"
+              _hover={{
+                bgGradient: "linear(to-r, #3b0b3b, purple.900)",
+                boxShadow: "0px 0px 20px rgba(128, 0, 128, 0.7)",
+                transform: "scale(1.05)",
+              }}
+              transition="all 0.3s ease"
             >
               Download CV
             </Button>

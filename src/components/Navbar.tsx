@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
                 height: '2px',
                 bottom: '0',
                 left: '2',
-                bgGradient: 'linear-gradient(90deg, rgba(82,0,65,1) 0%, rgba(56,56,56,1) 100%)',
+                bgGradient: 'linear-gradient(90deg, rgba(97,12,79,1) 7%, rgba(255,255,255,1) 100%)',
                 visibility: 'hidden',
                 transition: 'all 0.5s ease-in-out',
               }}
